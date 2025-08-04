@@ -38,7 +38,39 @@ label {
   font-size: 14px;
 }
 
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  background-color: #29275a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
 
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.text-para {
+  font-size: 11px;
+  margin: 15px 0;
+  text-align: justify;
+  color: #ccc;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  font-size: 13px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin: 0 8px 0 0;
+}
 
 
 

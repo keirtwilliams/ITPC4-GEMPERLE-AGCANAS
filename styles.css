@@ -74,3 +74,17 @@ input[type="checkbox"] {
 
 
 
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #5755d9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #6e6bfa;
+}
